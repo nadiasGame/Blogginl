@@ -1,0 +1,20 @@
+<%- include("include/header"); -%>
+
+
+<h1>Compose</h1>
+<form action = "/compose" method ="post">
+    <div class="form-group">
+    <label>Title</label>
+    <input class="form-control" name = "postTitle"/>
+
+    <label>Post</label> 
+    <input class="form-control" name = "postBody"/>
+
+  
+    </div>
+    <button class=”btn btn-primary” name ="Submit">Publish</button>
+
+</form>
+
+<%- include("include/footer"); -%>
+
